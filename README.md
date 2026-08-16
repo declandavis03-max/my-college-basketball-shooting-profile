@@ -9,9 +9,13 @@ From the court, to the film room, to Python, this project combines basketball, f
 - Conclusions
 
 # Introduction
-  After finishing my third college basketball season, I've wanted to look more deeply on the types of shots and offensive looks I've received as a player. 
-  We use Synergy Sports Tech to watch and review film, and within the tech there is a list of all of your shots, and the type of shots you've received. Whether it was a "Spot-up" or "Cut". I wanted to be more specific on how and where I get my shots, and the quality of each look! Not only would I think this would be more beneficial for the team, to see where an average player gets their shots, but a great player-development opportunity to see my own weaknesses, in a more specific route! 
-  Every player has a role within the court, and I wanted to pair my growing technical skills as an aspiring data analyst, and current film reviewing skills to ultimately maximize my role as a player and help out the team however I could! 
+After finishing my third college basketball season, I wanted to take a deeper look at the types of shots and offensive opportunities I received throughout the season.
+
+We use Synergy Sports Technology to watch and review film, and the platform provides a list of our shot attempts and the types of shots we receive, such as "Spot-Up" or "Cut." While this is useful, I wanted to go a step further. I wanted to understand not only what type of shot I was taking, but also how and where I was getting those shots, the offensive context surrounding them, and the quality of each look.
+
+I believed this could be valuable from both a team and player-development perspective. From a team standpoint, understanding where and how players generate their shots can provide a more detailed picture of an offense. From a player-development standpoint, analyzing my own shot profile could help me identify weaknesses, recognize trends, and better understand where I can improve.
+
+Every player has a specific role on the court, and I wanted to combine that idea with my growing technical skills as an aspiring data analyst and my experience reviewing basketball film. By turning film into structured data and analyzing my own shot attempts, my goal was to better understand my role as a player, identify opportunities for improvement, and ultimately find ways to maximize my impact on the court and help my team.
 
 # Film Breakdown and Methodology
 
