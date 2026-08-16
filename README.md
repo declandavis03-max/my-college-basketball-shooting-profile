@@ -9,7 +9,7 @@ From the court, to the film room, to Python, this project combines basketball, f
 - Conclusions
 
 # Introduction
-  After finishing third college basketball season, I've wanted to look more deeply on the types of shots and offensive looks I've received as a player. 
+  After finishing my third college basketball season, I've wanted to look more deeply on the types of shots and offensive looks I've received as a player. 
   We use Synergy Sports Tech to watch and review film, and within the tech there is a list of all of your shots, and the type of shots you've received. Whether it was a "Spot-up" or "Cut". I wanted to be more specific on how and where I get my shots, and the quality of each look! Not only would I think this would be more beneficial for the team, to see where an average player gets their shots, but a great player-development opportunity to see my own weaknesses, in a more specific route! 
   Every player has a role within the court, and I wanted to pair my growing technical skills as an aspiring data analyst, and current film reviewing skills to ultimately maximize my role as a player and help out the team however I could! 
 
