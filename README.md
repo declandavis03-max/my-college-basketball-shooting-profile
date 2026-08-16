@@ -14,6 +14,8 @@ From the court, to the film room, to Python, this project combines basketball, f
   Every player has a role within the court, and I wanted to pair my growing technical skills as an aspiring data analyst, and current film reviewing skills to ultimately maximize my role as a player and help out the team however I could! 
 
 # Film Breakdown and Methodology
+
+## Film Breakdown
 When reviewing film, I looked at all 112 possessions of offense in which I've shot the ball. Within each shot, I manually tracked:
 - Shot Number
   
@@ -37,10 +39,10 @@ When reviewing film, I looked at all 112 possessions of offense in which I've sh
   - Slot Area: 3 Point Area, next to top of keys, on the "lane-line"
   - Elbow Area
   - Short Corner
-  - Depp Paint: Anything under the elbows, but above the restricted arc
+  - Deep Paint: Anything under the elbows, but above the restricted arc
   - Restricted Arc: Within Half Circle, by blocks (Mostly Layups)
- 
-Shot Type:
+
+- Shot Type:
  
   
       
