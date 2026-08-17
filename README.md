@@ -128,6 +128,41 @@ def plot_shot_percentage(summary, x_col, color_col, title, palette):
 
 ```
 
+From there I created a list of different categories I wanted to look at and analyze. More specifically, each list within the set list has the following categories
+
+- Columns to group by, x-axis column, color column, chart title, palette 
+
+```python
+chart_specs = [
+        (['shotType', 'contestLevel'], 'shotType', 'contestLevel',
+         'Shot % by Shot Type and Contest Level', px.colors.qualitative.Set1),
+        (['shotLocation', 'contestLevel'], 'shotLocation', 'contestLevel',
+         'Shot % by Shot Location and Contest Level', px.colors.qualitative.Set2),
+        (['Origin', 'shotType'], 'Origin', 'shotType',
+         'Shot % by Origin and Shot Type', px.colors.qualitative.Pastel),
+        (['Origin', 'shotLocation'], 'Origin', 'shotLocation',
+         'Shot % by Origin and Shot Location', px.colors.qualitative.Bold),
+        (['Origin', 'contestLevel'], 'Origin', 'contestLevel',
+         'Shot % by Origin and Contest Level', px.colors.qualitative.Dark2),
+        (['shotType', 'playType'], 'shotType', 'playType', 
+         'Shot % by Shot Type and Play Type', px.colors.qualitative.Set3),
+        (['shotLocation', 'playType'], 'shotLocation', 'playType',
+          'Shot % by Shot Location and Play Type', px.colors.qualitative.Set1)
+          
+    ]
+
+```
+
+Finally, within the list I've just created, I calculated and summarized the shot data, and plotted the summaries using each formula.
+
+```python
+final = []
+for group_cols, x_col, color_col, title, palette in chart_specs:
+        summary = summarize_shot_data(df, group_cols)
+        fig = plot_shot_percentage(summary, x_col, color_col, title, palette)
+        final.append(fig)
+        fig.show()
+```
   
 
  
