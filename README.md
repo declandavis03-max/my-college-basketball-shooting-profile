@@ -75,10 +75,60 @@ After tracking each shot manually within Excel based on the figures above. I've 
 
 # Python Pandas Analysis: 
 Created Two Functions that 
-  1. Analyze Shot
-  2. Plot those results using Plotly Express
+  1. Summarizes shot data given certain columns, which calculates total number of shots given that column, made shots, and the average
+  2. Builds a grouped bar chart of shot percentage, split by x_col and
+    colored by color_col, using the given color palette. Reused for
+    every chart in this script.
+```python
 
-I 
+def summarize_shot_data(df, group_col):
+    """
+    Summarizes shot data by the given grouping column(s), calculating
+    total shots, made shots, and make percentage for each group.
+    """
+    summary = (
+        df.groupby(group_col)
+        .agg(
+            total_shots=('result', 'count'),
+            made_shots=('result', lambda x: (x == 'Make').sum()),
+            shot_percentage=('result', lambda x: (x == 'Make').mean() * 100),
+        )
+        .reset_index()
+    )
+    summary['shot_percentage'] = summary['shot_percentage'].round(1)
+    return summary.sort_values(by='shot_percentage', ascending=False)
+
+
+def plot_shot_percentage(summary, x_col, color_col, title, palette):
+    """
+    Builds a grouped bar chart of shot percentage, split by x_col and
+    colored by color_col, using the given color palette. Reused for
+    every chart in this script.
+    """
+    fig = px.bar(
+        summary,
+        x=x_col,
+        y='shot_percentage',
+        color=color_col,
+        color_discrete_sequence=palette,
+        barmode='group',
+        text='shot_percentage',
+        hover_data={'total_shots': True, 'made_shots': True},
+        title=title,
+        template='plotly_white',
+    )
+    fig.update_traces(texttemplate='%{text}%', textposition='outside')
+    fig.update_layout(
+        yaxis_title='Shot Percentage (%)',
+        yaxis_range=[0, 100],
+        xaxis_title=x_col,
+        legend_title=color_col,
+    )
+    return fig
+
+```
+
+  
 
  
   
