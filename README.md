@@ -165,6 +165,8 @@ for group_cols, x_col, color_col, title, palette in chart_specs:
 ```
 # Example Output
 ## All Outputs are within the "Visuals" folder
+![Shot Type by Contest Level](visuals/shot_type_contest_level.png)
+
 
 
 # Conclusions
