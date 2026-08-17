@@ -2,11 +2,11 @@
 From the court, to the film room, to Python, this project combines basketball, film study, and data analysis. I analyzed all of my shot attempts from a college basketball season, categorizing each attempt across factors, including shot location and play context. I then used Python to analyze the data, uncover insights into my shooting profile!
 
 # Table of Contents 
-- Introduction
-- Film Breakdown and Methodology
-- Python Pandas Analysis
-- Example Output 
-- Conclusions
+- [Introduction](#introduction)
+- [Film Breakdown and Methodology](#film-breakdown-and-methodology)
+- [Python Pandas Analysis](#python-pandas-analysis)
+- [Example Output](#example-output)
+- [Conclusions](#conclusions)
 
 # Introduction
 After finishing my third college basketball season, I wanted to take a deeper look at the types of shots and offensive opportunities I received throughout the season.
