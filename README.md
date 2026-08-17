@@ -5,7 +5,7 @@ From the court, to the film room, to Python, this project combines basketball, f
 - Introduction
 - Film Breakdown and Methodology
 - Python Pandas Analysis
-- Output using Plotly
+- Example Output 
 - Conclusions
 
 # Introduction
@@ -163,8 +163,25 @@ for group_cols, x_col, color_col, title, palette in chart_specs:
         final.append(fig)
         fig.show()
 ```
-  
+# Example Output
+## All Outputs are within the "Visuals" folder
 
- 
+
+# Conclusions
+Its important to mention 112 shot attempts are a pretty small sample size, which played prevalent in the bar sizes throughout the graphs. However, it is clear from watching the film, and the analysis, that there are patterns within my shot profile that is worth noting.
+
+
+## I need to work on my Shot Fake Game, and playing better off of a Closeout
+From "Shot % by Shot type and Play Type". My role on the team is a shooter. Shoot 3's and play defense. From the stats, I shoot much better (40.4%) when I catch and shoot in space rather than a shot fake in between the initial closeout and shot (22.2%). A lot can be equated to the level of closeout, but regardless, this can be a huge separator between becoming more of a playmaker rather than a 1-trick pony. If I can get better at using that shot fake, and shooting, or passing and playing off of the initial closeout, it can be a beneficial addition to my game!
+
+## A must to be better at: Shooting Corner Three's!
+Across the board shooting corner three's need to be improved. Shot location across Play type, contest level, and Origin, it is clear with reasonable sample size that corner three's are below my average. Especially as a floor spacer, who runs the floor and fills the corner, this is one of the more crucial aspects to improve my game. 
+
+## Shooting is much more efficient within a Set Play rather than Free Lance
+From "Shot % by Origin and Contest Level", this Datapoint makes sense, you will naturally shoot better in your offensive role, while running a set play (50% and over) rather than within freelance(Under 38%). You as a player know where your most efficient looks are, and its important to capitalize off of them. What's surprising when looking at freelance shots is when shots are highly contested, I shoot better than having shots wide open (10-26 High Contested vs 5-16 Low Contested)!
+
+## Keep Shooting off Pin Downs
+Within our offense, I shoot very effective off of a pin down. Whether I turn the ball downhill to the rim, or come off of it and shoot it, its very effective (43.7% off Wing three's - 5 percentage points greater than my average!) This needs to continue in order to be a true threat in our offense!
+
   
       
