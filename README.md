@@ -71,7 +71,8 @@ After tracking each shot manually within Excel based on the figures above. I've 
 - Create Two Functions Analyzing the Shot:
   1. Analyze Shot
   2. Plot those results using Plotly Express
-- Create a list of Lists, identifying the specific column or cross categories I want to look at
+  3. Create columns/ cross section between certain columns to see what factors impact my shooting percentages
+  4. Derive Insights
 
 # Python Pandas Analysis: 
 Created Two Functions that 
